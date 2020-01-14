@@ -1,0 +1,58 @@
+body {
+    background-color: #dce9ef;
+    background: url("https://img5.goodfon.ru/original/1920x1080/0/e7/fnatic-lol-league-fo-legends-esport-cyber-sport-fnc-rekless.jpg");
+}
+.drop {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+
+.drop_menu {
+	position: absolute;
+    top: 50%;
+    background: #5DB6DA;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    height: 30px;
+    width: 80%;
+}
+.drop_menu li {
+	float:left;
+}
+.drop_menu li a {
+	padding:9px 20px;
+	display:block;
+	color:#ca3a98be;
+	text-decoration:none;
+	font:12px arial, verdana, sans-serif;
+	font-weight: bold;
+}
+.drop_menu ul {
+	position:absolute;
+	left:-9999px;
+	top:-9999px;
+	list-style-type:none;
+}
+.drop_menu li:hover {
+	position:relative;
+	background:#0A2A5A;
+}
+.drop_menu li:hover ul {
+	left:0px;
+	top:30px;
+	background:#3286aa;
+	padding:0px;
+}
+
+.drop_menu li:hover ul li a {
+	padding:5px;
+	display:block;
+	width:168px;
+	text-indent:15px;
+	background-color:#3286aa;
+}
+.drop_menu li:hover ul li a:hover {
+	background:#00356a;
+}
